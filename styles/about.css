@@ -1,0 +1,55 @@
+body{
+    font-family: 'Montserrat', monospace;
+    background-color: #1B1B32;
+    color: white;
+}
+.container-main{
+    height: 500px;
+    width: 900px;
+    background-color: #2A2A40;
+    margin: auto;
+    box-shadow: 5px 5px 5px 5px black ;
+   display: flex;
+   flex-direction: column;
+}
+.nav-container{
+    display: flex;
+    flex-direction: row;
+ justify-content: space-between;
+}
+.nav-bar li{
+    float: right;
+    margin-right: 20px;
+    list-style-type: none;
+    
+}
+.nav-bar li a{
+   text-decoration: none;
+   color: white;
+}
+.nav-bar li a:hover{
+    background-color: #0A0A23;
+    transition: background .8s;
+    border-radius: 5px;
+    height:20px;
+ }
+ .img-container {
+    border: 3px solid black;  
+ }
+ .section-about{
+    
+    height: 320px;
+    margin-right: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-left: 50px;
+    position: relative;
+    top: 20px;
+}
+.skills-logos tr td img{
+    height: 40px
+}
+.skills-logos tr td{
+ margin-right: 10px;
+}

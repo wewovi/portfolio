@@ -1,0 +1,78 @@
+body{
+    font-family: 'Montserrat', monospace;
+    background-color: #1B1B32;
+    /* background-color:white; */
+    color: white;
+    /* color: black; */
+}
+.container-main{
+    height: 500px;
+    width: 900px;
+    background-color: #2A2A40;
+    /* background-color: #FFFAEC; */
+    margin: auto;
+    box-shadow: 5px 5px 5px 5px black ;
+   display: flex;
+   flex-direction: column;
+}
+.nav-container{
+    display: flex;
+    flex-direction: row;
+ justify-content: space-between;
+ margin-left: 20px;
+}
+.nav-bar li{
+    float: right;
+    margin-right: 20px;
+    list-style-type: none;
+    
+}
+.nav-bar li a{
+   text-decoration: none;
+   color: white;
+   /* color: black; */
+}
+.nav-bar li a:hover{
+    background-color: #0A0A23;
+    transition: background .8s;
+    border-radius: 5px;
+    height:20px;
+ }
+ .img-container {
+    border: 3px solid black;  
+ }
+ .content-container{
+     margin-left: 20px;
+ }
+ .message{
+     width: 400px;
+     height: 250px;
+     border-radius: 5px;
+     font-size: 20px;
+     box-sizing: border-box;
+     padding: 12px 20px;
+     float: left;
+ }
+ .send input{
+    background-color: orange;
+    height:30px;
+    width: 100px;
+    border: none;
+    border-radius: 5px;
+    float: right;
+    margin-right: 250px;
+    margin-top: 50px;
+ }
+ .send input:hover{
+   color: white;
+   font-size: 15px;
+   box-shadow: 0px 0px 2px 2px ;
+ }
+ .name{
+     height: 25px;
+     width: 220px;
+     margin-left: 50px;
+     border-radius: 5px;
+     font-size: 15px;
+ }
+ 
